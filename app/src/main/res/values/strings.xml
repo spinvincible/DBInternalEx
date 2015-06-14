@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DBInternalEx</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_load_data">loadData</string>
+</resources>
