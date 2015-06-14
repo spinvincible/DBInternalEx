@@ -112,6 +112,8 @@ public class loadData extends ActionBarActivity {
 
         Intent intent = new Intent(loadData.this, MainActivity.class);
         startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 
     public String readData(File myFile) {

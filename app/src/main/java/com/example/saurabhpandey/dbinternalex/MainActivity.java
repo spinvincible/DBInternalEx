@@ -102,6 +102,8 @@ public class MainActivity extends ActionBarActivity {
     public void nextScreen(View view) {
         Intent intent = new Intent(MainActivity.this, loadData.class);
         startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 
     private void writedata(File myFile, String data) {
