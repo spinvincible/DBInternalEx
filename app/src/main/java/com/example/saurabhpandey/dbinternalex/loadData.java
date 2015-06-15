@@ -135,7 +135,8 @@ public class loadData extends ActionBarActivity {
             if (fileInputStream != null) {
                 try {
                     fileInputStream.close();
-                } catch (IOException e) {
+                } catch
+                        (IOException e) {
                     e.printStackTrace();
                 }
             }
